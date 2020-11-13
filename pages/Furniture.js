@@ -101,11 +101,12 @@ class App extends React.Component {
   
       <View style={styles.container}>
         <View style={styles.search}>
-          <TouchableOpacity
+          {/* <TouchableOpacity
             style={{ width: "85%", flexDirection: 'row' }}
-          >
+          > */}
 
-            <View >
+            {/* <View > */}
+
               <TextInput
                 style={styles.searchInput}
                 placeholder="Search Here"
@@ -113,8 +114,8 @@ class App extends React.Component {
                 value={this.state.query}
                 onChangeText={(text) => this.filterList(text)}
               />
-            </View>
-          </TouchableOpacity>
+            {/* </View> */}
+          {/* </TouchableOpacity> */}
 
         </View>
 
